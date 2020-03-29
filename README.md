@@ -2,7 +2,6 @@
 Allow chat to control your keyboard! Commands cost currency..
 ChatIsSuperior_StreamlabsCommand is a twitch script for the streamlabs chatbot that brings the streamer and the viewer closer^^
 
-# ChatIsSuperior_StreamlabsCommand
 Script-version: 1.0.0.0
 Last-modified: 27.03.2020
 Made by: lobster/loster31345 from WiAD
@@ -27,11 +26,17 @@ Feel free to take a look at the script "ChatIsSuperior_StreamlabsCommand.py", ho
 
 ## File formatting
 -The file name is the command, must end with json.
+
 -Inside it have to be formatted as json, ({ "text": "test", "something": "someelse"})
+
 -"Response" is what the bot will respond with in chat, ("Response": "the message here")
+
 -"value" is the price in currency they gotta pay for the command, ("value": "number here")
+
 -"keys" is the keys thats being pressed on command, ("keys": "a b c") 
+
                 Space between letters result in same was as typing, a first, then b and lastly c.
+                
                 .:. between letters result in them being pressed at the same time, like shift.:.c will be C.
 
 
