@@ -42,21 +42,24 @@ def Execute(data):
         try:
             CommandFile = os.path.join(os.path.dirname(__file__), 'Config/' + data.GetParam(0).lower() + '.json')
             CommandFileList = MySettings(CommandFile)
-            ResponseString = CommandFileList.Response
-            ResponseString = ResponseString.replace("$character", data.User)
-            ResponseString = ResponseString.replace("$value", CommandFileList.value)
-            SendResp(data, ResponseString)
-            Parent.RemovePoints(data.User, data.UserName, int(CommandFileList.value))
-            KeyArray = CommandFileList.keys.split(' ')
-            for i in KeyArray:
-                if str(len(i)) > "1":
-                    HoldKey = i.split('.:.')
-                    for x in HoldKey:
-                        pyautogui.keyDown(x)
-                    for y in HoldKey:
-                        pyautogui.keyUp(y)
-                else:
-                    pyautogui.press(i) 
+            if Parent.GetPoints(data.User) > int(CommandFileList.value):
+                ResponseString = CommandFileList.Response
+                ResponseString = ResponseString.replace("$character", data.User)
+                ResponseString = ResponseString.replace("$value", CommandFileList.value)
+                SendResp(data, ResponseString)
+                Parent.RemovePoints(data.User, data.UserName, int(CommandFileList.value))
+                KeyArray = CommandFileList.keys.split(' ')
+                for i in KeyArray:
+                    if str(len(i)) > "1":
+                        HoldKey = i.split('.:.')
+                        for x in HoldKey:
+                            pyautogui.keyDown(x)
+                        for y in HoldKey:
+                            pyautogui.keyUp(y)
+                    else:
+                        pyautogui.press(i) 
+            else:
+                SendResp(data, "You to poor mate, it cost " + CommandFileList.value)
         except:
             return
     return
