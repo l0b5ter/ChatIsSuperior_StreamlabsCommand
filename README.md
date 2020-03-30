@@ -41,3 +41,8 @@ Feel free to take a look at the script "ChatIsSuperior_StreamlabsCommand.py", ho
                 .:. between letters result in them being pressed at the same time, like shift.:.c will be C.
 
 
+
+
+
+#### Wanna support my work?                                                    
+[![Become a Patron!](https://i.imgur.com/BbE01dL.png)](https://www.patreon.com/bePatron?u=31657981)
