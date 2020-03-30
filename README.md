@@ -7,6 +7,7 @@ ChatIsSuperior_StreamlabsCommand is a twitch script for the streamlabs chatbot t
 -Made by: lobster/loster31345 from WiAD
 -Requested by: Mofker (twitch.tv/mofkerlive).
 
+
 ## Functions:
 1. On commands in twicth chat will return a response/message along with keyboard control!
 2. All commands cost bot currency.
