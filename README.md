@@ -22,7 +22,7 @@ Requested by: Mofker (twitch.tv/mofkerlive).
 5. SolLook how the "!hotkey.json" file is formatted in the example forlder and add commands the same way to your "Config" folder.
 6. Yay you done mate, just reload the scripts and see the magic^^
 
-Feel free to take a look at the script "ChatIsSuperior_StreamlabsCommand.py", however if you make a change dont come and say its not working. ill galdly help you fix or improve it^^
+Feel free to take a look at the script "ChatIsSuperior_StreamlabsCommand.py", however if you make a change dont come and say its not working. ill galdly help fix or improve it^^
 
 
 ## File formatting
