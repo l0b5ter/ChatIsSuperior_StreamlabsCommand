@@ -15,7 +15,7 @@ Requested by: Mofker (twitch.tv/mofkerlive).
 
 ## Instructions on how to get it up
 1. download .zip
-2. This folder is in a zip-file, so extract it and move the folder ChatIsSuperior_StreamlabsCommand
+2. This folder is in a zip-file, so extract it and move the folder ChatIsSuperior
  into the streamlabs chat bot "Scripts" folder.
 3. Install pyautogui (open cmd and type "pip install pyautogui").
 4. Open the "Config" folder in the script folder, its empty.
