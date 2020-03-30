@@ -1,5 +1,5 @@
 # ChatIsSuperior_StreamlabsCommand
-Allow chat to control your keyboard! Commands cost currency..
+Allow chat to control your keyboard! Commands cost currency..                   
 ChatIsSuperior_StreamlabsCommand is a twitch script for the streamlabs chatbot that brings the streamer and the viewer closer^^
 
 Script-version: 1.0.0.0                     
