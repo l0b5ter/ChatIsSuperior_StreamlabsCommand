@@ -41,7 +41,7 @@ Feel free to take a look at the script "ChatIsSuperior_StreamlabsCommand.py", ho
                 
                 .:. between letters result in them being pressed at the same time, like shift.:.c will be C.
                 
--"SoundFile" is what file the command should play. Leaving it as ("SoundFile": "") will not play anything, while ("SoundFile": "test.mp3") will play the file test.mp3 which is inside the "ChatIsSuperior" folder.
+-"SoundFile" is what file the command should play. Leaving it as ("SoundFile": "") will not play anything, while ("SoundFile":                           "test.mp3") will play the file test.mp3 which is inside the "ChatIsSuperior" folder.
 
 ## Changelog
 |Script-version|Changes|
