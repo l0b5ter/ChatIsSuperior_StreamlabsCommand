@@ -1,9 +1,9 @@
 # ChatIsSuperior_StreamlabsCommand
-Allow chat to control your keyboard! Commands cost currency..                   
+Allow chat to control your keyboard, with maybe a sound! Commands cost currency..                   
 ChatIsSuperior_StreamlabsCommand is a twitch script for the streamlabs chatbot that brings the streamer and the viewer closer^^
 
 Script-version: 1.0.0.2                     
-Last-modified: 27.03.2020                     
+Last-modified: 13.05.2020                     
 Made by: lobster/loster31345 from WiAD                           
 Requested by: Mofker (twitch.tv/mofkerlive).
 
@@ -42,6 +42,12 @@ Feel free to take a look at the script "ChatIsSuperior_StreamlabsCommand.py", ho
                 .:. between letters result in them being pressed at the same time, like shift.:.c will be C.
                 
 -"SoundFile" is what file the command should play. Leaving it as ("SoundFile": "") will not play anything, while ("SoundFile": "test.mp3") will play the file test.mp3 which is inside the "ChatIsSuperior" folder.
+
+## Changelog
+|Script-version|Changes|
+|:-|:-|
+|[v1.0.0.4](https://github.com/l0b5ter/ChatIsSuperior_StreamlabsCommand) |Commands can now trigger to play mp3 files.|
+|[v1.0.0.0](https://github.com/l0b5ter/ChatIsSuperior_StreamlabsCommand/tree/master/Outdated%20versions/ChatIsSuperior-v1.0.0.0) |Allow chat to control your keyboard! Commands cost currency.. |
 
 
 
