@@ -46,7 +46,7 @@ Feel free to take a look at the script "ChatIsSuperior_StreamlabsCommand.py", ho
 ## Changelog
 |Script-version|Changes|
 |:-|:-|
-|[v1.0.0.4](https://github.com/l0b5ter/ChatIsSuperior_StreamlabsCommand) |Commands can now trigger to play mp3 files.|
+|[v1.0.0.2](https://github.com/l0b5ter/ChatIsSuperior_StreamlabsCommand) |Commands can now trigger to play mp3 files.|
 |[v1.0.0.0](https://github.com/l0b5ter/ChatIsSuperior_StreamlabsCommand/tree/master/Outdated%20versions/ChatIsSuperior-v1.0.0.0) |Allow chat to control your keyboard! Commands cost currency.. |
 
 
