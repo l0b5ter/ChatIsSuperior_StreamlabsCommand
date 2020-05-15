@@ -2,7 +2,7 @@
 Allow chat to control your keyboard! Commands cost currency..                   
 ChatIsSuperior_StreamlabsCommand is a twitch script for the streamlabs chatbot that brings the streamer and the viewer closer^^
 
-Script-version: 1.0.0.0                     
+Script-version: 1.0.0.2                     
 Last-modified: 27.03.2020                     
 Made by: lobster/loster31345 from WiAD                           
 Requested by: Mofker (twitch.tv/mofkerlive).
@@ -10,6 +10,7 @@ Requested by: Mofker (twitch.tv/mofkerlive).
 
 ## Functions:
 1. On commands in twicth chat will return a response/message along with keyboard control!
+2. Version 1.0.0.2 can also play a mp3 file.
 2. All commands cost bot currency.
 3. Simple and clean way to add and removed.
 
@@ -19,7 +20,7 @@ Requested by: Mofker (twitch.tv/mofkerlive).
  into the streamlabs chat bot "Scripts" folder.
 3. Install pyautogui (open cmd and type "pip install pyautogui").
 4. Open the "Config" folder in the script folder, its empty.
-5. SolLook how the "!hotkey.json" file is formatted in the example forlder and add commands the same way to your "Config" folder.
+5. So Look how the "!hotkey.json" and "!hotkey2" files are formatted in the example forlder and add commands the same way to your "Config" folder.
 6. Yay you done mate, just reload the scripts and see the magic^^
 
 Feel free to take a look at the script "ChatIsSuperior_StreamlabsCommand.py", however if you make a change dont come and say its not working. ill galdly help fix or improve it^^
@@ -39,6 +40,8 @@ Feel free to take a look at the script "ChatIsSuperior_StreamlabsCommand.py", ho
                 Space between letters result in same was as typing, a first, then b and lastly c.
                 
                 .:. between letters result in them being pressed at the same time, like shift.:.c will be C.
+                
+-"SoundFile" is what file the command should play. Leaving it as ("SoundFile": "") will not play anything, while ("SoundFile": "test.mp3") will play the file test.mp3 which is inside the "ChatIsSuperior" folder.
 
 
 
