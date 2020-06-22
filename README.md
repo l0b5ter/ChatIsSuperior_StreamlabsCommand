@@ -16,12 +16,12 @@ Requested by: Mofker (twitch.tv/mofkerlive).
 
 ## Instructions on how to get it up
 1. download .zip
-2. This folder is in a zip-file, so extract it and move the folder ChatIsSuperior
- into the streamlabs chat bot "Scripts" folder.
-3. Install pyautogui (open cmd and type "pip install pyautogui").
-4. Open the "Config" folder in the script folder, its empty.
+2. Install pyautogui (open cmd and type "pip install pyautogui").
+3. Open the .zip folder.
+4. Open the "Config" folder, its empty.
 5. So Look how the "!hotkey.json" and "!hotkey2" files are formatted in the example forlder and add commands the same way to your "Config" folder.
-6. Yay you done mate, just reload the scripts and see the magic^^
+6. This folder is in a zip-file, so click on import in the streamlabs chat bot "Scripts" tab and select the .zip folder.
+7. Yay you done mate, just reload the scripts and see the magic^^
 
 Feel free to take a look at the script "ChatIsSuperior_StreamlabsCommand.py", however if you make a change dont come and say its not working. ill galdly help fix or improve it^^
 
