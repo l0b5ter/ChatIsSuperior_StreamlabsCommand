@@ -50,7 +50,8 @@ Feel free to take a look at the script "ChatIsSuperior_StreamlabsCommand.py", ho
 
                 Space between letters result in same was as typing, a first, then b and lastly c.
                 
-                .:. between letters result in them being pressed at the same time, like shift.:.c will be C. Using 4sec will make the script wait 4 sec before pressing the next. and 4sec2 will wait 4 sec before releasing the next.
+                .:. between letters result in them being pressed at the same time, like shift.:.c will be C. 
+                Using 4sec will make the script wait 4 sec before pressing the next. and 4sec2 will wait 4 sec before releasing the next.
                 
 -"SoundFile" is what file the command should play. Leaving it as ("SoundFile": "") will not play anything, while ("SoundFile":                           "test.mp3") will play the file test.mp3 which is inside the "ChatIsSuperior" folder.
 
