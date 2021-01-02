@@ -19,11 +19,11 @@ Requested by: Mofker (twitch.tv/mofkerlive).
 ### Newest way
 1. Download zip file from this repository.
 2. Install pyautogui (open cmd and type "pip install pyautogui").
-3. Open streamlabs and click on import script.
-4. Then select the downloaded zip file (this will install every version of this script, so remove the folder outdated versions for only the newest).
-5. Click on import scripts and open the "Config" folder, its empty.
-6. So Look how the "!hotkey.json" and "!hotkey2" files are formatted in the example forlder and add commands the same way to your "Config" folder.
-7. This folder is in a zip-file, so click on import in the streamlabs chat bot "Scripts" tab and select the .zip folder.
+3. Open streamlabs.
+4. This folder is in a zip-file, so click on import in the streamlabs chat bot "Scripts" tab and select the .zip folder.
+5. Then select the downloaded zip file (this will install every version of this script, so remove the folder outdated versions for only the newest).
+6. Click on import scripts and open the "Config" folder, its empty.
+7. So Look how the "!hotkey.json" and "!hotkey2" files are formatted in the example forlder and add commands the same way to your "Config" folder.
 8. Yay you done mate, just reload the scripts and see the magic^^
 
 ### Old way
